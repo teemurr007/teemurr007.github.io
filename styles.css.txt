@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Set a simple, professional font */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the page content and give it some padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Links in the "Movies" section */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style for images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+#happy, #sad {
+    text-align: center;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#neighbors p {
+    font-style: italic;
+}
